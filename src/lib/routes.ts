@@ -144,7 +144,6 @@ export async function appRoutes(app: FastifyInstance) {
         ) as amount
       FROM days D
     `
-
     return summary
   })
 }
